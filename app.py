@@ -107,7 +107,7 @@ def generate_report(ticker, financial_data, model_name):
 # --- 4. 界面布局 ---
 
 st.title("📈 AI 智能股票研报生成器 (Pro)")
-st.caption("Powered by Gemini 1.5 & Yahoo Finance")
+st.caption("Powered by Gemini 2.5 & Yahoo Finance")
 
 with st.sidebar:
     st.header("⚙️ 参数设置")
