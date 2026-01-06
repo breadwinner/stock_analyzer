@@ -116,7 +116,7 @@ with st.sidebar:
     
     model_version = st.selectbox(
         "选择模型", 
-        ["gemini-2.5-flash"],
+        ["gemini-2.5-flash","gemini-2.5-flash-lite"],
         index=1, # 默认选 Pro
         help="Flash 速度更快，Pro 分析更深入"
     )
