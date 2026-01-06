@@ -116,7 +116,7 @@ with st.sidebar:
     
     model_version = st.selectbox(
         "选择模型", 
-        ["gemini-2.5-flash", "gemini-2.5-pro"],
+        ["gemini-2.5-flash"],
         index=1, # 默认选 Pro
         help="Flash 速度更快，Pro 分析更深入"
     )
@@ -127,7 +127,7 @@ with st.sidebar:
 # 主输入区
 col1, col2 = st.columns([3, 1])
 with col1:
-    ticker_input = st.text_input("请输入股票代码", value="UNH", placeholder="例如: AAPL").upper()
+    ticker_input = st.text_input("请输入股票代码", value="", placeholder="例如: AAPL").upper()
 with col2:
     st.write("") # 占位用于对齐
     st.write("")
